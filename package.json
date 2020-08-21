@@ -1,5 +1,5 @@
 {
-  "name": "react-slick",
+  "name": "react-slick-noclick",
   "version": "0.26.1",
   "description": " React port of slick carousel",
   "main": "./lib",
@@ -18,11 +18,11 @@
     "gen": "node examples/scripts/generateExampleConfigs.js && node examples/scripts/generateExamples.js && xdg-open docs/jquery.html",
     "precommit": "lint-staged"
   },
-  "author": "Kiran Abburi",
+  "author": "Kiran Abburi, Kade Robertson",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/akiran/react-slick"
+    "url": "https://github.com/kade-robertson/react-slick"
   },
   "keywords": [
     "slick",
@@ -110,7 +110,7 @@
       "git add"
     ]
   },
-  "npmName": "react-slick",
+  "npmName": "react-slick-noclick",
   "npmFileMap": [
     {
       "basePath": "/dist/",
@@ -120,7 +120,7 @@
     }
   ],
   "bugs": {
-    "url": "https://github.com/akiran/react-slick/issues"
+    "url": "https://github.com/kade-robertson/react-slick/issues"
   },
   "homepage": "https://react-slick.neostack.com",
   "collective": {
